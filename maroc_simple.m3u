@@ -1,0 +1,33 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc",Al Aoula
+https://streaming.snrtlive.ma/live/slaalaoula/slaalaoula.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc",2M Monde
+https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc",Arryadia
+https://streaming.snrtlive.ma/live/slaarryadia/slaarryadia.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc",Arrabiaa (Athaqafia)
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arrabiaa/hls_snrt/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc",Assadissa
+https://streaming.snrtlive.ma/live/slaassadissa/slaassadissa.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc",Tamazight
+https://streaming.snrtlive.ma/live/slataamazight/slataamazight.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc",Al Maghribia
+https://streaming.snrtlive.ma/live/slamaghribia/slamaghribia.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc",Medi1 TV
+https://streaming1.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc",Chada TV
+https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc",M24 / MAP TV News
+https://www.maptvnews.ma/live/smil:OutStream1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc (secours)",Al Aoula (secours)
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc (secours)",Arryadia (secours)
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arriadia/hls_snrt/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc (secours)",Al Maghribia (secours)
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc (secours)",Medi1 TV Arabic (secours)
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc (secours)",Chada TV (secours)
+https://edge19.vedge.infomaniak.com/livecast/ik:chadatv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Maroc (secours)",Medi1 TV (secours 2)
+https://streaming2.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8
