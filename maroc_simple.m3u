@@ -1,45 +1,89 @@
 #EXTM3U
+
+# --- AL AOULA ---
 #EXTINF:-1 group-title="Maroc",Al Aoula (1)
 https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119051/aloulainter/playlist.m3u8
 #EXTINF:-1 group-title="Maroc",Al Aoula (2)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter.m3u8
 #EXTINF:-1 group-title="Maroc",Al Aoula (3)
 https://streaming.snrtlive.ma/live/slaalaoula/slaalaoula.m3u8
+
+# --- 2M ---
 #EXTINF:-1 group-title="Maroc",2M Monde (1)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m_monde.m3u8
 #EXTINF:-1 group-title="Maroc",2M Monde (2)
-https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
-#EXTINF:-1 group-title="Maroc",2M Monde (3)
 https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8
+#EXTINF:-1 group-title="Maroc",2M Espagne
+https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
+
+# --- ARRYADIA ---
 #EXTINF:-1 group-title="Maroc",Arryadia (1)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arriadia/hls_snrt/index.m3u8
 #EXTINF:-1 group-title="Maroc",Arryadia (2)
 https://streaming.snrtlive.ma/live/slaarryadia/slaarryadia.m3u8
+#EXTINF:-1 group-title="Maroc",Arryadia (3)
+https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/corp/73_arryadia_k2tgcj0_480p/chunks_dvr.m3u8
+
+# --- ARRABIAA / ATHAQAFIA ---
 #EXTINF:-1 group-title="Maroc",Arrabiaa (1)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arrabiaa/hls_snrt/index.m3u8
 #EXTINF:-1 group-title="Maroc",Arrabiaa (2)
-https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arrabiaa/hls_snrt/index.m3u8?fluxustv.m3u8
+https://cdn.live.easybroadcast.io/ts_corp/73_arrabia_hthcj4p/playlist_dvr.m3u8
+
+# --- ASSADISSA ---
 #EXTINF:-1 group-title="Maroc",Assadissa (1)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/assadissa/hls_snrt/index.m3u8
 #EXTINF:-1 group-title="Maroc",Assadissa (2)
 https://streaming.snrtlive.ma/live/slaassadissa/slaassadissa.m3u8
+
+# --- TAMAZIGHT ---
 #EXTINF:-1 group-title="Maroc",Tamazight (1)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/tamazight_tv8_snrt/hls_snrt/index.m3u8
 #EXTINF:-1 group-title="Maroc",Tamazight (2)
 https://streaming.snrtlive.ma/live/slataamazight/slataamazight.m3u8
+
+# --- AL MAGHRIBIA ---
 #EXTINF:-1 group-title="Maroc",Al Maghribia (1)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8
 #EXTINF:-1 group-title="Maroc",Al Maghribia (2)
 https://streaming.snrtlive.ma/live/slamaghribia/slamaghribia.m3u8
-#EXTINF:-1 group-title="Maroc",Medi1 TV (1)
-https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8
-#EXTINF:-1 group-title="Maroc",Medi1 TV (2)
+
+# --- LAAYOUNE TV ---
+#EXTINF:-1 group-title="Maroc",Laayoune TV (1)
+https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/playlist_dvr.m3u8
+#EXTINF:-1 group-title="Maroc",Laayoune TV (2)
+https://cdn-hls.globecast.tv/live/ramdisk/al_aoula_laayoune/hls_snrt/al_aoula_laayoune.m3u8
+
+# --- AFLAM TV ---
+#EXTINF:-1 group-title="Maroc",Aflam TV (1)
+https://live20.bozztv.com/gin-36bay4/ga-aflamtv7/index.m3u8
+#EXTINF:-1 group-title="Maroc",Aflam TV (2)
+https://fl1002.bozztv.com/ga-aflamtv7/index.m3u8
+
+# --- MEDI1 TV ---
+#EXTINF:-1 group-title="Maroc",Medi1 TV Maghreb (1)
 https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8
-#EXTINF:-1 group-title="Maroc",Medi1 TV (3)
+#EXTINF:-1 group-title="Maroc",Medi1 TV Maghreb (2)
 https://streaming1.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8
+#EXTINF:-1 group-title="Maroc",Medi1 TV Arabic (1)
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8
+#EXTINF:-1 group-title="Maroc",Medi1 TV Arabic (2)
+https://streaming1.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8
+#EXTINF:-1 group-title="Maroc",Medi1 TV Afrique
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8
+
+# --- CHADA TV ---
 #EXTINF:-1 group-title="Maroc",Chada TV (1)
 https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8
 #EXTINF:-1 group-title="Maroc",Chada TV (2)
 https://edge19.vedge.infomaniak.com/livecast/ik:chadatv/playlist.m3u8
-#EXTINF:-1 group-title="Maroc",M24 / MAP TV News
+
+# --- M24 / MAP ---
+#EXTINF:-1 group-title="Maroc",M24 MAP TV
 https://www.maptvnews.ma/live/smil:OutStream1.smil/playlist.m3u8
+#EXTINF:-1 group-title="Maroc",M24 MAP TV (2)
+https://63df3191463ce.streamlock.net/live/ngrp:Live2.stream_all/chunklist_w1880481615_b1396000.m3u8
+
+# --- AUTRES CHAINES ---
+#EXTINF:-1 group-title="Maroc",Story Channel
+https://136044159.r.cdnsun.net/storychannel.m3u8
