@@ -6,6 +6,15 @@ https://viamotionhsi.netplus.ch/live/eds/2mmaroc/browser-HLS8/2mmaroc.m3u8
 #EXTINF:-1 group-title="Maroc",Al Aoula Laayoune
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_snrt/al_aoula_laayoune-avc1_1500000=4-mp4a_130400_qad=1.m3u8
 
+#EXTINF:-1 tvg-name="Arryadia" group-title="Maroc",Arryadia
+https://token.easybroadcast.io/all?url=https%3A%2F%2Fcdn.live.easybroadcast.io%2Fabr_corp%2F73_arryadia_k2tgcj0%2Fplaylist_dvr.m3u8
+
+#EXTINF:-1 tvg-name="Arrabia" group-title="Maroc",Arrabia
+https://token.easybroadcast.io/all?url=https%3A%2F%2Fcdn.live.easybroadcast.io%2Fabr_corp%2F73_arrabia_hthcj4p%2Fplaylist_dvr.m3u8
+
+#EXTINF:-1 tvg-name="Al Maghribia" group-title="Maroc",Al Maghribia
+https://token.easybroadcast.io/all?url=https%3A%2F%2Fcdn.live.easybroadcast.io%2Fabr_corp%2F73_almaghribia_83tz85q%2Fplaylist_dvr.m3u8
+
 # --- TELE MAROC ---
 #EXTINF:-1 group-title="Maroc",Télé Maroc
 https://api.new.livestream.com/accounts/27130247/events/9197096/live.m3u8
@@ -18,10 +27,8 @@ https://136044159.r.cdnsun.net/storychannel.m3u8
 #EXTINF:-1 group-title="Maroc",2M Monde +1
 https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
 
-# --- TAMAZIGHT TV ---
-#EXTINF:-1 group-title="Maroc",Tamazight TV (Aniview)
-https://streaming.snrtlive.ma/live/slataamazight/slataamazight.m3u8
+#EXTINF:-1 tvg-name="Tamazight" group-title="Maroc",Tamazight
+https://token.easybroadcast.io/all?url=https%3A%2F%2Fcdn.live.easybroadcast.io%2Fabr_corp%2F73_tamazight_tccybxt%2Fplaylist_dvr.m3u8
 
-# --- ASSADISSA ---
-#EXTINF:-1 group-title="Maroc",Assadissa 
-https://cdn.live.easybroadcast.io/abr_corp/73_assadissa_7b7u5n1/playlist_dvr.m3u8?token=vVm3OnCoYG0a7AG_3swu0kWPJDPDKBgDFs3WNZj0A54&token_path=%2Fabr_corp%2F73_assadissa_7b7u5n1&expires=1793797845
+#EXTINF:-1 tvg-name="Assadissa" group-title="Maroc",Assadissa
+https://token.easybroadcast.io/all?url=https%3A%2F%2Fcdn.live.easybroadcast.io%2Fabr_corp%2F73_assadissa_7b7u5n1%2Fplaylist_dvr.m3u8
