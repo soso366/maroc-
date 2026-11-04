@@ -23,5 +23,5 @@ https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://streaming.snrtlive.ma/live/slataamazight/slataamazight.m3u8
 
 # --- ASSADISSA ---
-#EXTINF:-1 group-title="Maroc",Assadissa (Aniview)
-https://streaming.snrtlive.ma/live/slaassadissa/slaassadissa.m3u8
+#EXTINF:-1 group-title="Maroc",Assadissa 
+https://token.easybroadcast.io/all?url=https%3A%2F%2Fcdn.live.easybroadcast.io%2Fabr_corp%2F73_assadissa_7b7u5n1%2Fplaylist_dvr.m3u8
