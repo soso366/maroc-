@@ -1,0 +1,2827 @@
+{
+ "date_utc": "2026-11-05T11:34:19Z",
+ "duree_totale_s": 11.3,
+ "ffmpeg": "/usr/bin/ffmpeg",
+ "ffprobe": "/usr/bin/ffprobe",
+ "sources": [
+  {
+   "source": "AdeelWajid/iptv_validated_list:countries/ma.m3u",
+   "url": "https://raw.githubusercontent.com/AdeelWajid/iptv_validated_list/main/playlists/countries/ma.m3u",
+   "utilisee": "https://raw.githubusercontent.com/AdeelWajid/iptv_validated_list/main/playlists/countries/ma.m3u",
+   "statut": 200,
+   "entrees": 10,
+   "entrees_maroc": 10,
+   "erreur": ""
+  },
+  {
+   "source": "iptv-org/iptv:countries/ma.m3u",
+   "url": "https://iptv-org.github.io/iptv/countries/ma.m3u",
+   "utilisee": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ma.m3u",
+   "statut": 200,
+   "entrees": 14,
+   "entrees_maroc": 14,
+   "erreur": "https://iptv-org.github.io/iptv/countries/ma.m3u -> ProxyError: HTTPSConnectionPool(host='iptv-org.github.io', port=443): Max retries exceeded with url: /iptv/countries/ma.m3u (Caused ;"
+  },
+  {
+   "source": "THEROCKSSS/sorted-iptv:languages/arabic.m3u",
+   "url": "https://raw.githubusercontent.com/THEROCKSSS/sorted-iptv/main/playlists/languages/arabic.m3u",
+   "utilisee": "https://raw.githubusercontent.com/THEROCKSSS/sorted-iptv/main/playlists/languages/arabic.m3u",
+   "statut": 200,
+   "entrees": 384,
+   "entrees_maroc": 22,
+   "erreur": ""
+  },
+  {
+   "source": "gist:hassanalami/46bf18eb7d91cc50f7591cebd6124c55",
+   "url": "https://gist.githubusercontent.com/hassanalami/46bf18eb7d91cc50f7591cebd6124c55/raw/MAROC.m3u",
+   "utilisee": "https://gist.github.com/hassanalami/46bf18eb7d91cc50f7591cebd6124c55 (extrait de la page HTML)",
+   "statut": 200,
+   "entrees": 4,
+   "entrees_maroc": 4,
+   "erreur": "https://gist.githubusercontent.com/hassanalami/46bf18eb7d91cc50f7591cebd6124c55/raw/MAROC.m3u -> ProxyError: HTTPSConnectionPool(host='gist.githubusercontent.com', port=443): Max retries exceeded with url: /hassanalami/46bf18eb7d;"
+  },
+  {
+   "source": "iprd-org/iprd:streams/ma/ma_snrt.m3u",
+   "url": "https://raw.githubusercontent.com/iprd-org/iprd/main/streams/ma/ma_snrt.m3u",
+   "utilisee": "https://raw.githubusercontent.com/iprd-org/iprd/main/streams/ma/ma_snrt.m3u",
+   "statut": 200,
+   "entrees": 15,
+   "entrees_maroc": 0,
+   "erreur": ""
+  },
+  {
+   "source": "kilirushi/iptv:ma.m3u",
+   "url": "https://raw.githubusercontent.com/kilirushi/iptv/master/ma.m3u",
+   "utilisee": "https://raw.githubusercontent.com/kilirushi/iptv/master/ma.m3u",
+   "statut": 200,
+   "entrees": 14,
+   "entrees_maroc": 14,
+   "erreur": ""
+  },
+  {
+   "source": "kilirushi/iptv:arabic.m3u",
+   "url": "https://raw.githubusercontent.com/kilirushi/iptv/master/arabic.m3u",
+   "utilisee": "https://raw.githubusercontent.com/kilirushi/iptv/master/arabic.m3u",
+   "statut": 200,
+   "entrees": 1416,
+   "entrees_maroc": 12,
+   "erreur": ""
+  },
+  {
+   "source": "spookyhost1/yarr-stremio:ma.m3u",
+   "url": "https://raw.githubusercontent.com/spookyhost1/yarr-stremio/main/src/iptv/m3u-sources/ma.m3u",
+   "utilisee": "https://raw.githubusercontent.com/spookyhost1/yarr-stremio/main/src/iptv/m3u-sources/ma.m3u",
+   "statut": 200,
+   "entrees": 23,
+   "entrees_maroc": 23,
+   "erreur": ""
+  },
+  {
+   "source": "shiheb/iptv-player:Arabe/Maroc.m3u",
+   "url": "https://raw.githubusercontent.com/shiheb/iptv-player/master/Arabe/Maroc.m3u",
+   "utilisee": "https://raw.githubusercontent.com/shiheb/iptv-player/master/Arabe/Maroc.m3u",
+   "statut": 200,
+   "entrees": 40,
+   "entrees_maroc": 37,
+   "erreur": ""
+  },
+  {
+   "source": "KarimHassanein2021/iptv:MORICO.m3u",
+   "url": "https://raw.githubusercontent.com/KarimHassanein2021/iptv/main/MORICO.m3u",
+   "utilisee": "https://raw.githubusercontent.com/KarimHassanein2021/iptv/main/MORICO.m3u",
+   "statut": 200,
+   "entrees": 14,
+   "entrees_maroc": 11,
+   "erreur": ""
+  },
+  {
+   "source": "nsm-lab/iptv:channels/ma.m3u",
+   "url": "https://raw.githubusercontent.com/nsm-lab/iptv/master/channels/ma.m3u",
+   "utilisee": "https://raw.githubusercontent.com/nsm-lab/iptv/master/channels/ma.m3u",
+   "statut": 200,
+   "entrees": 23,
+   "entrees_maroc": 22,
+   "erreur": ""
+  },
+  {
+   "source": "Romaxa55/world_ip_tv:output/ma.m3u",
+   "url": "https://raw.githubusercontent.com/Romaxa55/world_ip_tv/master/output/ma.m3u",
+   "utilisee": "https://raw.githubusercontent.com/Romaxa55/world_ip_tv/master/output/ma.m3u",
+   "statut": 200,
+   "entrees": 10,
+   "entrees_maroc": 9,
+   "erreur": ""
+  },
+  {
+   "source": "bugsfreeweb/LiveTVCollector:Arabic",
+   "url": "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Arabic/LiveTV.m3u",
+   "utilisee": "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Arabic/LiveTV.m3u",
+   "statut": 200,
+   "entrees": 349,
+   "entrees_maroc": 8,
+   "erreur": ""
+  },
+  {
+   "source": "AdeelWajid/iptv_validated_list:languages/ara.m3u",
+   "url": "https://raw.githubusercontent.com/AdeelWajid/iptv_validated_list/main/playlists/languages/ara.m3u",
+   "utilisee": "https://raw.githubusercontent.com/AdeelWajid/iptv_validated_list/main/playlists/languages/ara.m3u",
+   "statut": 200,
+   "entrees": 299,
+   "entrees_maroc": 9,
+   "erreur": ""
+  },
+  {
+   "source": "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u",
+   "url": "https://raw.githubusercontent.com/igorpetrenko3690/IGOR_IPTV/master/channels/ma.m3u",
+   "utilisee": "https://raw.githubusercontent.com/igorpetrenko3690/IGOR_IPTV/master/channels/ma.m3u",
+   "statut": 200,
+   "entrees": 20,
+   "entrees_maroc": 19,
+   "erreur": ""
+  },
+  {
+   "source": "levi-45/iptvstream:ma.m3u",
+   "url": "https://raw.githubusercontent.com/levi-45/iptvstream/main/ma.m3u",
+   "utilisee": "https://raw.githubusercontent.com/levi-45/iptvstream/main/ma.m3u",
+   "statut": 200,
+   "entrees": 14,
+   "entrees_maroc": 14,
+   "erreur": ""
+  },
+  {
+   "source": "iliasse-sudo/tv:ma.m3u",
+   "url": "https://raw.githubusercontent.com/iliasse-sudo/tv/main/ma.m3u",
+   "utilisee": "https://raw.githubusercontent.com/iliasse-sudo/tv/main/ma.m3u",
+   "statut": 200,
+   "entrees": 18,
+   "entrees_maroc": 17,
+   "erreur": ""
+  },
+  {
+   "source": "chadisid/list-work:mar.m3u",
+   "url": "https://raw.githubusercontent.com/chadisid/list-work/master/mar.m3u",
+   "utilisee": "https://raw.githubusercontent.com/chadisid/list-work/master/mar.m3u",
+   "statut": 200,
+   "entrees": 8,
+   "entrees_maroc": 8,
+   "erreur": ""
+  },
+  {
+   "source": "ahmadmk2023/free-channel:ma.m3u",
+   "url": "https://raw.githubusercontent.com/ahmadmk2023/free-channel/main/ma.m3u",
+   "utilisee": "https://raw.githubusercontent.com/ahmadmk2023/free-channel/main/ma.m3u",
+   "statut": 200,
+   "entrees": 18,
+   "entrees_maroc": 17,
+   "erreur": ""
+  },
+  {
+   "source": "Free-TV/IPTV:playlist.m3u8",
+   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/main/playlist.m3u8",
+   "utilisee": "https://raw.githubusercontent.com/Free-TV/IPTV/main/playlist.m3u8",
+   "statut": 200,
+   "entrees": 2059,
+   "entrees_maroc": 0,
+   "erreur": ""
+  },
+  {
+   "source": "soso366/maroc-:maroc_simple.m3u",
+   "url": "https://raw.githubusercontent.com/soso366/maroc-/main/maroc_simple.m3u",
+   "utilisee": "https://raw.githubusercontent.com/soso366/maroc-/main/maroc_simple.m3u",
+   "statut": 200,
+   "entrees": 7,
+   "entrees_maroc": 7,
+   "erreur": ""
+  }
+ ],
+ "targets": [
+  "Laayoune TV",
+  "Al Aoula",
+  "2M Monde",
+  "2M",
+  "Arryadia",
+  "Arrabiaa / Athaqafia",
+  "Assadissa",
+  "Tamazight",
+  "Al Maghribia",
+  "Aflam TV",
+  "Medi1 TV",
+  "Chada TV",
+  "M24 / MAP TV News"
+ ],
+ "resultats": [
+  {
+   "channel": "Laayoune TV",
+   "name": "Al Aoula Laayoune",
+   "url": "http://cdn-hls.globecast.tv/live/ramdisk/al_aoula_laayoune/hls_snrt/index.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u",
+    "chadisid/list-work:mar.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "New EPG",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/laayounex2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.01,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Laayoune TV",
+   "name": "Al Aoula Laayoune+",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_snrt/index.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/laayounex2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.01,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Laayoune TV",
+   "name": "Al Aoula Laâyoune (480p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/corp/73_laayoune_pgagr52_480p/chunks_dvr.m3u8",
+   "sources": [
+    "iliasse-sudo/tv:ma.m3u"
+   ],
+   "referer": "https://snrt.player.easybroadcast.io/",
+   "user_agent": "",
+   "tvg_id": "LaayouneTV.ma@SD",
+   "logo": "https://www.snrt.ma/sites/default/files/2023-04/laayoune.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.22,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Laayoune TV",
+   "name": "Al Aoula Laayoune++",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_snrt/al_aoula_laayoune-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u",
+    "soso366/maroc-:maroc_simple.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/laayounex2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Laayoune TV",
+   "name": "[KHALIL PRO]  AL AUOLA LAAYOUNE",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_snrt/index.m3u8",
+   "sources": [
+    "KarimHassanein2021/iptv:MORICO.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "https://snrtlive.ma/",
+   "user_agent": "",
+   "tvg_id": "AlAoulaLaayoune.ma",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.2,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Laayoune TV",
+   "name": "Laayoune TV",
+   "url": "https://snrtworker.kharazbelaid.workers.dev/?id=laayoune.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "LaayouneTV.ma",
+   "logo": "https://i.ibb.co/Q3r5D5d0/image-removebg-preview.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.21,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Aoula",
+   "name": "AR:MR-Al AOULA HD",
+   "url": "http://cdn-hls.globecast.tv/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter-avc1_1000000=3-mp4a_130400_qad=1.m3u8",
+   "sources": [
+    "kilirushi/iptv:arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4iEALZv4YrKR-lP0mZhxMepY4eIjFedRwWQlqMeYC4wJW8XBk",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.02,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Aoula",
+   "name": "Al Aoula International+++",
+   "url": "http://cdn-hls.globecast.tv/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/alaoulax2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.01,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Aoula",
+   "name": "Al Aoula International",
+   "url": "http://cdn-hls.globecast.tv/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "chadisid/list-work:mar.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "New EPG",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/alaoulax2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.02,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Aoula",
+   "name": "Al Aoula International++",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/alaoulax2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.01,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Aoula",
+   "name": "Al Aoula MA",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8",
+   "sources": [
+    "gist:hassanalami/46bf18eb7d91cc50f7591cebd6124c55"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Al Aoula MA",
+   "logo": "https://raw.githubusercontent.com/3nakib/IPTV/master/icons/AlAoula.ma.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.01,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Aoula",
+   "name": "Al Aoula Inter (480p)",
+   "url": "https://cdn.live.easybroadcast.io/ts_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8",
+   "sources": [
+    "iliasse-sudo/tv:ma.m3u"
+   ],
+   "referer": "https://snrtlive.ma/",
+   "user_agent": "ExoPlayer",
+   "tvg_id": "AlAoula.ma@Inter",
+   "logo": "https://i.imgur.com/nq53d2N.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.29,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Aoula",
+   "name": "Al Aoula International+",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "https://snrtlive.ma/",
+   "user_agent": "",
+   "tvg_id": "AlAoulaEurope.ma",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/alaoulax2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Aoula",
+   "name": "Al Aoula (SD)",
+   "url": "https://snrtworker.kharazbelaid.workers.dev/?id=alaoula.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "AlAoula.ma",
+   "logo": "https://i.imgur.com/nq53d2N.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.24,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Aoula",
+   "name": "Al Aoula (HD)",
+   "url": "https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "AlAoula.ma",
+   "logo": "https://i.imgur.com/nq53d2N.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.27,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Aoula",
+   "name": "Al Aoula (Inter HD)",
+   "url": "https://stream-lb.livemediama.com/alaoula/hls/master.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "AlAoula.ma",
+   "logo": "https://i.imgur.com/nq53d2N.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.29,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Aoula",
+   "name": "Al Aoula Inter",
+   "url": "https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119051/aloulainter/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "AlAoula.ma@Inter",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.22,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M Monde",
+   "name": "2M Monde+++",
+   "url": "http://109.236.92.216:9090/2M/tracks-v1a1/mono.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "2M Monde ARB",
+   "logo": "https://i.imgur.com/eE1SdyA.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 8.01,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M Monde",
+   "name": "[KHALIL PRO] 2M",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m_monde-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+   "sources": [
+    "KarimHassanein2021/iptv:MORICO.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M Monde",
+   "name": "AR:MR-2M-MONDE",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m_monde.m3u8",
+   "sources": [
+    "kilirushi/iptv:arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2e/2M_TV_logo.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M Monde",
+   "name": "2M monde",
+   "url": "http://playlist.onlybest.tv/en/channel/7721e3d44b99b8168ae5debce8c60a07/511/index.m3u8",
+   "sources": [
+    "chadisid/list-work:mar.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "New EPG",
+   "logo": "https://i.ytimg.com/vi/caXE8LHBm_4/hqdefault.jpg",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M Monde",
+   "name": "2M Monde (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8",
+   "sources": [
+    "AdeelWajid/iptv_validated_list:countries/ma.m3u",
+    "iptv-org/iptv:countries/ma.m3u",
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "bugsfreeweb/LiveTVCollector:Arabic",
+    "AdeelWajid/iptv_validated_list:languages/ara.m3u",
+    "levi-45/iptvstream:ma.m3u",
+    "iliasse-sudo/tv:ma.m3u"
+   ],
+   "referer": "http://www.radio2m.ma/",
+   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0",
+   "tvg_id": "2MMonde.ma@SD",
+   "logo": "https://i.imgur.com/MvpntzA.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.24,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M Monde",
+   "name": "2M Monde+",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m_monde-avc1_1500000=4-mp4a_130400_qad=1.m3u8?3564838283",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "2M Monde ARB",
+   "logo": "https://i.imgur.com/eE1SdyA.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.23,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M Monde",
+   "name": "2M Monde",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m_monde.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "2M Monde ARB",
+   "logo": "https://i.imgur.com/eE1SdyA.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.27,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M Monde",
+   "name": "2M Monde (360p)",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8",
+   "sources": [
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "2MInternational.ma",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.24,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M Monde",
+   "name": "2M Monde +1 (1080p)",
+   "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8",
+   "sources": [
+    "AdeelWajid/iptv_validated_list:countries/ma.m3u",
+    "iptv-org/iptv:countries/ma.m3u",
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "Romaxa55/world_ip_tv:output/ma.m3u",
+    "bugsfreeweb/LiveTVCollector:Arabic",
+    "AdeelWajid/iptv_validated_list:languages/ara.m3u",
+    "levi-45/iptvstream:ma.m3u",
+    "iliasse-sudo/tv:ma.m3u",
+    "soso366/maroc-:maroc_simple.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "2MMonde.ma@Plus1",
+   "logo": "https://i.imgur.com/MvpntzA.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.12,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M Monde",
+   "name": "2M Monde (HD)",
+   "url": "https://stream-lb.livemediama.com/2m/hls/master.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "2MMonde.ma",
+   "logo": "https://i.imgur.com/MvpntzA.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.24,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M",
+   "name": "2M",
+   "url": "http://185.9.2.18/chid_218/index.m3u8",
+   "sources": [
+    "AdeelWajid/iptv_validated_list:countries/ma.m3u",
+    "iptv-org/iptv:countries/ma.m3u",
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "Romaxa55/world_ip_tv:output/ma.m3u",
+    "bugsfreeweb/LiveTVCollector:Arabic",
+    "AdeelWajid/iptv_validated_list:languages/ara.m3u",
+    "levi-45/iptvstream:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "2M.ma@SD",
+   "logo": "https://i.imgur.com/PJYTfHi.png",
+   "http_status": "403",
+   "result": "NON TESTÉ",
+   "duration": 0.01,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M",
+   "name": "2M Maroc",
+   "url": "http://livecdnh2.tvanywhere.ae/hls/2m_maroc/04.m3u8",
+   "sources": [
+    "gist:hassanalami/46bf18eb7d91cc50f7591cebd6124c55",
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "2M Maroc",
+   "logo": "https://m.2m.ma/static/images/2m-logo-thumbnail.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M",
+   "name": "2M Maroc",
+   "url": "http://www.elahmad.com/tv/m3u8/elahmad_jyrh8.m3u8?id=maroc2",
+   "sources": [
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://i.imgur.com/zBgr8ot.jpg",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M",
+   "name": "2M",
+   "url": "https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119051/2mmaroc/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "2M.ma@SD",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.2,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M",
+   "name": "2M",
+   "url": "https://viamotionhsi.netplus.ch/live/eds/2mmaroc/browser-HLS8/2mmaroc.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "iliasse-sudo/tv:ma.m3u",
+    "soso366/maroc-:maroc_simple.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "2M.ma@SD",
+   "logo": "https://i.imgur.com/PJYTfHi.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.22,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "2M",
+   "name": "2M",
+   "url": "https://viamotionhsi.netplus.ch/live/eds/2mmaroc/browser-dash/2mmaroc.mpd",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "2M.ma@SD",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.29,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "Arryadia (720p)",
+   "url": "http://149.100.11.252:8000/play/a065/index.m3u8",
+   "sources": [
+    "AdeelWajid/iptv_validated_list:countries/ma.m3u",
+    "iptv-org/iptv:countries/ma.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "Romaxa55/world_ip_tv:output/ma.m3u",
+    "bugsfreeweb/LiveTVCollector:Arabic",
+    "AdeelWajid/iptv_validated_list:languages/ara.m3u",
+    "levi-45/iptvstream:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Arryadia.ma@SD",
+   "logo": "https://i.imgur.com/XjzK3gZ.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 8.01,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "AR:MR-ARRYADIA HD",
+   "url": "http://cdn-hls.globecast.tv/live/ramdisk/arriadia/hls_snrt/index.m3u8",
+   "sources": [
+    "kilirushi/iptv:arabic.m3u",
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u",
+    "chadisid/list-work:mar.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "New EPG",
+   "logo": "https://lh3.googleusercontent.com/-tuMXu8otwao/Wf2pzrlozqI/AAAAAAAAAC8/6UyuuUV7LGgbYVRO6qLqdBmkqLgVi_R1gCHMYCw/s1600/1509795366082.jpg",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "AR:MR-ARRYADIA HD-3",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arriadia/hls_snrt/arriadia-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+   "sources": [
+    "kilirushi/iptv:arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://tvfcdn.com/big/arryadia-maroc.jpg",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "Arryadia+",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arriadia/hls_snrt/index.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/arriyadia.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "Arryadia",
+   "url": "http://www.elahmad.com/tv/m3u8/maroc.m3u8?id=arriadia",
+   "sources": [
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/arriyadiax2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "Arryadia (480p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/corp/73_arryadia_k2tgcj0_480p/chunks_dvr.m3u8",
+   "sources": [
+    "iliasse-sudo/tv:ma.m3u"
+   ],
+   "referer": "https://snrt.player.easybroadcast.io/",
+   "user_agent": "",
+   "tvg_id": "Arryadia.ma@SD",
+   "logo": "https://i.imgur.com/XjzK3gZ.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.23,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "Arryadia TNT (480p) [Geo-blocked]",
+   "url": "https://cdn.live.easybroadcast.io/ts_corp/73_arryadia-tnt_zcmwjdc/playlist_dvr.m3u8",
+   "sources": [
+    "iliasse-sudo/tv:ma.m3u"
+   ],
+   "referer": "https://snrtlive.ma/",
+   "user_agent": "ExoPlayer",
+   "tvg_id": "Arryadia.ma@TNT",
+   "logo": "https://i.imgur.com/XjzK3gZ.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "[KHALIL PRO] ARRYADIA",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arriadia/hls_snrt/index.m3u8",
+   "sources": [
+    "KarimHassanein2021/iptv:MORICO.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "https://snrtlive.ma/",
+   "user_agent": "",
+   "tvg_id": "Arryadia.ma",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.19,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "Arryadia (SD)",
+   "url": "https://snrtworker.kharazbelaid.workers.dev/?id=arryadia.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Arryadia.ma",
+   "logo": "https://i.imgur.com/XjzK3gZ.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.23,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "Arryadia HD1",
+   "url": "https://stream-lb.livemediama.com/arryadia-hd-01/hls/master.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "ArryadiaHD1.ma",
+   "logo": "https://i.ibb.co/fYNx6Fk1/image-removebg-preview-1.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.13,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "Arryadia HD2",
+   "url": "https://stream-lb.livemediama.com/arryadia-hd-02/hls/master.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "ArryadiaHD2.ma",
+   "logo": "https://i.ibb.co/jPFCVFNS/image-removebg-preview-3.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.41,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "Arryadia HD3",
+   "url": "https://stream-lb.livemediama.com/arryadia-hd-03/hls/master.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "ArryadiaHD3.ma",
+   "logo": "https://i.ibb.co/mCnJzvvB/image-removebg-preview-4.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.13,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "Arryadia (HD TNT)",
+   "url": "https://stream-lb.livemediama.com/arryadia-tnt/hls/master.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Arryadia.ma",
+   "logo": "https://i.imgur.com/XjzK3gZ.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.23,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arryadia",
+   "name": "Arryadia (HD)",
+   "url": "https://stream-lb.livemediama.com/arryadia/hls/master.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Arryadia.ma",
+   "logo": "https://i.imgur.com/XjzK3gZ.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arrabiaa / Athaqafia",
+   "name": "AR:MR-ARRABIAA HD",
+   "url": "http://cdn-hls.globecast.tv/live/ramdisk/arrabiaa/hls_snrt/index.m3u8",
+   "sources": [
+    "kilirushi/iptv:arabic.m3u",
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u",
+    "chadisid/list-work:mar.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "New EPG",
+   "logo": "http://snrtlive.ma/sites/all/themes/snrtlive/images/athaqafiax2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arrabiaa / Athaqafia",
+   "name": "Athaqafia++",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arrabiaa/hls_snrt/index.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/attakafiya.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arrabiaa / Athaqafia",
+   "name": "Athaqafia (480p)",
+   "url": "https://cdn.live.easybroadcast.io/ts_corp/73_arrabia_hthcj4p/playlist_dvr.m3u8",
+   "sources": [
+    "iliasse-sudo/tv:ma.m3u"
+   ],
+   "referer": "https://snrtlive.ma/",
+   "user_agent": "ExoPlayer",
+   "tvg_id": "Athaqafia.ma@SD",
+   "logo": "https://i.postimg.cc/K8ctm5cS/athaqafia.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.19,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arrabiaa / Athaqafia",
+   "name": "Athaqafia++++",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arrabiaa/hls_snrt/arrabiaa-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/attakafiya.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.23,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arrabiaa / Athaqafia",
+   "name": "[KHALIL PRO] ATHAQAFIA",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arrabiaa/hls_snrt/index.m3u8",
+   "sources": [
+    "KarimHassanein2021/iptv:MORICO.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "https://snrtlive.ma/",
+   "user_agent": "",
+   "tvg_id": "Athaqafia.ma",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.2,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arrabiaa / Athaqafia",
+   "name": "Athaqafia+++",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arrabiaa/hls_snrt/index.m3u8?fluxustv.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/attakafiya.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.24,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Arrabiaa / Athaqafia",
+   "name": "Athaqafia",
+   "url": "https://snrtworker.kharazbelaid.workers.dev/?id=arrabia.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Athaqafia.ma",
+   "logo": "https://freebox.cdn.scw.iliad.fr/medium_Athaqafia_fdc90e055e.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.26,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Assadissa",
+   "name": "AR:MR-ASSADISSA HD",
+   "url": "http://cdn-hls.globecast.tv/live/ramdisk/assadissa/hls_snrt/index.m3u8",
+   "sources": [
+    "kilirushi/iptv:arabic.m3u",
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u",
+    "chadisid/list-work:mar.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "New EPG",
+   "logo": "http://snrtlive.ma/sites/all/themes/snrtlive/images/assadissax2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Assadissa",
+   "name": "Assadissa+",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/assadissa/hls_snrt/index.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/assadissax2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Assadissa",
+   "name": "Assadissa (480p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/73_assadissa_7b7u5n1/corp/73_assadissa_7b7u5n1_480p/chunks_dvr.m3u8",
+   "sources": [
+    "iliasse-sudo/tv:ma.m3u"
+   ],
+   "referer": "https://snrt.player.easybroadcast.io/",
+   "user_agent": "",
+   "tvg_id": "Assadissa.ma@SD",
+   "logo": "https://i.postimg.cc/YS9NzzTf/assadissa.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.27,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Assadissa",
+   "name": "[KHALIL PRO] AL ASSADISSA",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/assadissa/hls_snrt/index.m3u8",
+   "sources": [
+    "KarimHassanein2021/iptv:MORICO.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "https://snrtlive.ma/",
+   "user_agent": "",
+   "tvg_id": "Assadissa.ma",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.18,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Assadissa",
+   "name": "Assadissa",
+   "url": "https://snrtworker.kharazbelaid.workers.dev/?id=assadisa.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Assadissa.ma",
+   "logo": "https://freebox.cdn.scw.iliad.fr/medium_Assadissa_f8b25de821.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.28,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Assadissa",
+   "name": "Assadissa",
+   "url": "https://streaming.snrtlive.ma/live/slaassadissa/slaassadissa.m3u8",
+   "sources": [
+    "soso366/maroc-:maroc_simple.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.28,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Assadissa",
+   "name": "Assadissa",
+   "url": "https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119051/assadissa/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Assadissa.ma@SD",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Tamazight",
+   "name": "Tamazight",
+   "url": "http://cdn-hls.globecast.tv/live/ramdisk/tamazight_tv8_snrt/hls_snrt/index.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u",
+    "chadisid/list-work:mar.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "New EPG",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/tamazightx2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Tamazight",
+   "name": "Tamazight+",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/tamazight_tv8_snrt/hls_snrt/index.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/tamazightx2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Tamazight",
+   "name": "AR:MR-TAMAZIGHT HD",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/tamazight_tv8_snrt/hls_snrt/tamazight_tv8_snrt-avc1_1500000=4-mp4a_130400_qad=1.m3u8?",
+   "sources": [
+    "kilirushi/iptv:arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://tv-net.co/channels-frequencys/wp-content/uploads/2014/10/tv-net.co_11.jpg",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Tamazight",
+   "name": "Tamazight TV (480p)",
+   "url": "https://cdn.live.easybroadcast.io/ts_corp/73_tamazight_tccybxt/playlist_dvr.m3u8",
+   "sources": [
+    "iliasse-sudo/tv:ma.m3u"
+   ],
+   "referer": "https://snrtlive.ma/",
+   "user_agent": "ExoPlayer",
+   "tvg_id": "TamazightTV.ma@SD",
+   "logo": "https://i.imgur.com/fm6S7we.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Tamazight",
+   "name": "[KHALIL PRO] TAMAZIGHT",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/tamazight_tv8_snrt/hls_snrt/index.m3u8",
+   "sources": [
+    "KarimHassanein2021/iptv:MORICO.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "https://snrtlive.ma/",
+   "user_agent": "",
+   "tvg_id": "TamazightTV.ma",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.12,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Tamazight",
+   "name": "Tamazight TV",
+   "url": "https://snrtworker.kharazbelaid.workers.dev/?id=tamazight.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "TamazightTV.ma",
+   "logo": "https://freebox.cdn.scw.iliad.fr/552_56201db052.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.24,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Tamazight",
+   "name": "Tamazight TV",
+   "url": "https://streaming.snrtlive.ma/live/slataamazight/slataamazight.m3u8",
+   "sources": [
+    "soso366/maroc-:maroc_simple.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Tamazight",
+   "name": "Tamazight TV",
+   "url": "https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119051/tamazight/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "TamazightTV.ma@SD",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Maghribia",
+   "name": "Al Maghribia (1080p)",
+   "url": "http://185.9.2.18/chid_205/index.m3u8",
+   "sources": [
+    "AdeelWajid/iptv_validated_list:countries/ma.m3u",
+    "iptv-org/iptv:countries/ma.m3u",
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "Romaxa55/world_ip_tv:output/ma.m3u",
+    "bugsfreeweb/LiveTVCollector:Arabic",
+    "AdeelWajid/iptv_validated_list:languages/ara.m3u",
+    "levi-45/iptvstream:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "AlMaghribia.ma@SD",
+   "logo": "https://i.imgur.com/7GaahYh.png",
+   "http_status": "403",
+   "result": "NON TESTÉ",
+   "duration": 0.01,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Maghribia",
+   "name": "Al Maghribia",
+   "url": "http://cdn-hls.globecast.tv/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u",
+    "chadisid/list-work:mar.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Al Maghribia ARB",
+   "logo": "http://www.snrtlive.ma/sites/all/themes/snrtlive/images/almaghribiax2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Maghribia",
+   "name": "AR:MR-AL MAGHRIBIA HD TNT",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/al_maghribia_snrt-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+   "sources": [
+    "kilirushi/iptv:arabic.m3u",
+    "shiheb/iptv-player:Arabe/Maroc.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://snrtlive.ma/sites/all/themes/snrtlive/images/snrtar.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Maghribia",
+   "name": "Al Maghribia MA",
+   "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8",
+   "sources": [
+    "gist:hassanalami/46bf18eb7d91cc50f7591cebd6124c55",
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Al Maghribia MA",
+   "logo": "https://raw.githubusercontent.com/3nakib/IPTV/master/icons/AlMaghribia.ma.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Maghribia",
+   "name": "Al Maghribia (480p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/73_almaghribia_83tz85q/corp/73_almaghribia_83tz85q_480p/chunks_dvr.m3u8",
+   "sources": [
+    "iliasse-sudo/tv:ma.m3u"
+   ],
+   "referer": "https://snrt.player.easybroadcast.io/",
+   "user_agent": "",
+   "tvg_id": "AlMaghribia.ma@SD",
+   "logo": "https://i.imgur.com/7GaahYh.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.26,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Maghribia",
+   "name": "[KHALIL PRO] ALMAGHRIBIA",
+   "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8",
+   "sources": [
+    "KarimHassanein2021/iptv:MORICO.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "https://snrtlive.ma/",
+   "user_agent": "",
+   "tvg_id": "AlMaghribia.ma",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.27,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Maghribia",
+   "name": "Al Maghribia",
+   "url": "https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119051/almaghribia/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "AlMaghribia.ma@SD",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.26,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Maghribia",
+   "name": "Al Maghribia",
+   "url": "https://viamotionhsi.netplus.ch/live/eds/almaghribia/browser-HLS8/almaghribia.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "AlMaghribia.ma@SD",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.32,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Al Maghribia",
+   "name": "Al Maghribia",
+   "url": "https://viamotionhsi.netplus.ch/live/eds/almaghribia/browser-dash/almaghribia.mpd",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "AlMaghribia.ma@SD",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Aflam TV",
+   "name": "Aflam TV",
+   "url": "https://fl1002.bozztv.com/ga-aflamtv7/index.m3u8",
+   "sources": [
+    "iliasse-sudo/tv:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "AflamTV.ma@SD",
+   "logo": "https://i.imgur.com/XqQxO9J.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.27,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "AR:MR-MEDI1 HD",
+   "url": "http://streaming.medi1tv.com/live/Medi1tvArabia.sdp/chunklist_w1604542278.m3u8?v=",
+   "sources": [
+    "kilirushi/iptv:arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://yt3.ggpht.com/a-/AAuE7mBh01dlj3FajmP9yNTpd6nrol5pDOOmEnoTFw=s900-mo-c-c0xffffffff-rj-k-no",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV MA",
+   "url": "http://streaming.medi1tv.com/live/Medi1tvmaghreb.sdp/chunklist.m3u8",
+   "sources": [
+    "gist:hassanalami/46bf18eb7d91cc50f7591cebd6124c55",
+    "nsm-lab/iptv:channels/ma.m3u",
+    "igorpetrenko3690/IGOR_IPTV:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi 1 TV",
+   "logo": "http://www.medi1tv.com/ar/img/logo2.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi1TV Afrique (1080p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8",
+   "sources": [
+    "AdeelWajid/iptv_validated_list:countries/ma.m3u",
+    "iptv-org/iptv:countries/ma.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "Romaxa55/world_ip_tv:output/ma.m3u",
+    "levi-45/iptvstream:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVAfrique.ma@SD",
+   "logo": "https://i.imgur.com/a20DHnj.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi1TV Afrique (1080p) (DVR) (1080p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_dvr.m3u8",
+   "sources": [
+    "iptv-org/iptv:countries/ma.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "levi-45/iptvstream:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVAfrique.ma@SD",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.24,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV Arabic (1080p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8",
+   "sources": [
+    "AdeelWajid/iptv_validated_list:countries/ma.m3u",
+    "iptv-org/iptv:countries/ma.m3u",
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "Romaxa55/world_ip_tv:output/ma.m3u",
+    "bugsfreeweb/LiveTVCollector:Arabic",
+    "AdeelWajid/iptv_validated_list:languages/ara.m3u",
+    "levi-45/iptvstream:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVArabic.ma@SD",
+   "logo": "https://i.imgur.com/3YsZPY6.jpeg",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.26,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV Arabic (1080p) (DVR) (1080p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist_dvr.m3u8",
+   "sources": [
+    "iptv-org/iptv:countries/ma.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "levi-45/iptvstream:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVArabic.ma@SD",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.24,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV Maghreb (1080p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8",
+   "sources": [
+    "iptv-org/iptv:countries/ma.m3u",
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "Romaxa55/world_ip_tv:output/ma.m3u",
+    "bugsfreeweb/LiveTVCollector:Arabic",
+    "levi-45/iptvstream:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVMaghreb.ma@SD",
+   "logo": "https://i.imgur.com/F5OFQsp.jpeg",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.31,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV Maghreb (1080p) (DVR) (1080p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist_dvr.m3u8",
+   "sources": [
+    "AdeelWajid/iptv_validated_list:countries/ma.m3u",
+    "iptv-org/iptv:countries/ma.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "AdeelWajid/iptv_validated_list:languages/ara.m3u",
+    "levi-45/iptvstream:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVMaghreb.ma@SD",
+   "logo": "https://i.imgur.com/F5OFQsp.jpeg",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.19,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV+",
+   "url": "https://streaming.medi1tv.com/live/Medi1tvArabia.sdp/playlist.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://www.medi1tv.ma/ar/img/footer/logo_new.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.24,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV",
+   "url": "https://streaming.medi1tv.com/live/Medi1tvmaghreb.sdp/chunklist_w472602734.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://www.medi1tv.ma/ar/img/footer/logo_new.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.13,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV Arabic (720p)",
+   "url": "https://streaming1.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "iliasse-sudo/tv:ma.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVArabic.ma",
+   "logo": "https://i.imgur.com/3YsZPY6.jpeg",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.21,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "[KHALIL PRO] MEDI1 TV ARBIC",
+   "url": "https://streaming1.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8?DVR",
+   "sources": [
+    "KarimHassanein2021/iptv:MORICO.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.21,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV Afrique (720p)",
+   "url": "https://streaming1.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "iliasse-sudo/tv:ma.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVAfrique.ma",
+   "logo": "https://i.imgur.com/a20DHnj.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.28,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "[KHALIL PRO] MEDI1 TV AFRIQUE",
+   "url": "https://streaming1.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8?DVR",
+   "sources": [
+    "KarimHassanein2021/iptv:MORICO.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.21,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV Maghreb (720p)",
+   "url": "https://streaming1.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "iliasse-sudo/tv:ma.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVMaghreb.ma",
+   "logo": "https://i.imgur.com/F5OFQsp.jpeg",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.19,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "[KHALIL PRO] MEDI1 TV",
+   "url": "https://streaming1.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8?DVR",
+   "sources": [
+    "KarimHassanein2021/iptv:MORICO.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV Arabic (720p)",
+   "url": "https://streaming2.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVArabic.ma",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.31,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV Afrique (720p)",
+   "url": "https://streaming2.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVAfrique.ma",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.3,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi 1 TV Maghreb (720p)",
+   "url": "https://streaming2.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVMaghreb.ma",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.19,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi1TV Maghreb",
+   "url": "https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119051/medhionetvmaghreb/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVMaghreb.ma@SD",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.27,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Medi1 TV",
+   "name": "Medi1TV Afrique",
+   "url": "https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120429/meditv/playlist.m3u8",
+   "sources": [
+    "spookyhost1/yarr-stremio:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "Medi1TVAfrique.ma@SD",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.24,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Chada TV",
+   "name": "Chada TV",
+   "url": "https://chadatv.vedge.infomaniak.com/livecast/chadatv/chunklist.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://chadatv.com/wp-content/themes/chadatv/images/logo.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.12,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Chada TV",
+   "name": "Chada TV",
+   "url": "https://chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8",
+   "sources": [
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u",
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "iliasse-sudo/tv:ma.m3u",
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "ChadaTV.ma",
+   "logo": "https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.13,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Chada TV",
+   "name": "Chada TV (720p)",
+   "url": "https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8",
+   "sources": [
+    "AdeelWajid/iptv_validated_list:countries/ma.m3u",
+    "iptv-org/iptv:countries/ma.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "Romaxa55/world_ip_tv:output/ma.m3u",
+    "bugsfreeweb/LiveTVCollector:Arabic",
+    "AdeelWajid/iptv_validated_list:languages/ara.m3u",
+    "levi-45/iptvstream:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "ChadaTV.ma@SD",
+   "logo": "https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Chada TV",
+   "name": "Chada TV (720p)",
+   "url": "https://edge19.vedge.infomaniak.com/livecast/ik:chadatv/playlist.m3u8",
+   "sources": [
+    "iptv-org/iptv:countries/ma.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "levi-45/iptvstream:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "ChadaTV.ma@SD",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.26,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Chada TV",
+   "name": "AR:MR-CHADA TV",
+   "url": "https://edge4.vedge.infomaniak.com/livecast/chadatv/chunklist_w1139108578.m3u8",
+   "sources": [
+    "kilirushi/iptv:arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhvnmcrIbOS75N0AOgzexZryI8XHuhtf3tH6ZH36tBAsghHO4s",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.29,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Chada TV",
+   "name": "Chada TV",
+   "url": "https://edge7.vedge.infomaniak.com/livecast/chadatv/manifest.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://chadatv.com/wp-content/themes/chadatv/images/logo.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.24,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "M24 / MAP TV News",
+   "name": "AR:MR-M24",
+   "url": "http://79.137.106.241/live/smil:OutStream1.smil/chunklist_w185528531_b4500000_sleng.m3u8?v=",
+   "sources": [
+    "kilirushi/iptv:arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "http://watchfomny.tv/Video/Arabic-Radio/02/Radio-Tanger/radio.gif",
+   "http_status": "403",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "M24 / MAP TV News",
+   "name": "AR:MR-MAB TV News",
+   "url": "http://79.137.106.241/live/smil:OutStream1.smil/chunklist_w605955827_b4500000_sleng.m3u8?v=",
+   "sources": [
+    "kilirushi/iptv:arabic.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://yt3.ggpht.com/a-/AAuE7mDmOPvg0md5LA0rBEEpC_6g33qIRTmh7jjDOQ=s900-mo-c-c0xffffffff-rj-k-no",
+   "http_status": "403",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "M24 / MAP TV News",
+   "name": "M24 TV+",
+   "url": "http://79.137.106.241/live/smil:OutStream1.smil/playlist.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://i.imgur.com/J7GdM3L.png",
+   "http_status": "403",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "M24 / MAP TV News",
+   "name": "M24 TV (720p) [Not 24/7]",
+   "url": "https://63df3191463ce.streamlock.net/live/ngrp:Live2.stream_all/index.m3u8",
+   "sources": [
+    "ahmadmk2023/free-channel:ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "M24TV.ma",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.25,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "M24 / MAP TV News",
+   "name": "M24 TV",
+   "url": "https://www.m24tv.ma/live/smil:OutStream1.smil/chunklist.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u",
+    "nsm-lab/iptv:channels/ma.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://i.imgur.com/J7GdM3L.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.32,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "M24 / MAP TV News",
+   "name": "[KHALIL PRO] M24 TV",
+   "url": "https://www.m24tv.ma/live/smil:OutStream1.smil/playlist.m3u8",
+   "sources": [
+    "KarimHassanein2021/iptv:MORICO.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.12,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Autre : StoryChannel TV",
+   "name": "StoryChannel TV (720p)",
+   "url": "https://136044159.r.cdnsun.net/storychannel.m3u8",
+   "sources": [
+    "AdeelWajid/iptv_validated_list:countries/ma.m3u",
+    "iptv-org/iptv:countries/ma.m3u",
+    "THEROCKSSS/sorted-iptv:languages/arabic.m3u",
+    "kilirushi/iptv:ma.m3u",
+    "spookyhost1/yarr-stremio:ma.m3u",
+    "Romaxa55/world_ip_tv:output/ma.m3u",
+    "AdeelWajid/iptv_validated_list:languages/ara.m3u",
+    "levi-45/iptvstream:ma.m3u",
+    "iliasse-sudo/tv:ma.m3u",
+    "soso366/maroc-:maroc_simple.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "StoryChannelTV.ma@SD",
+   "logo": "https://i.imgur.com/ZBV6xph.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.23,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Autre : Télé Maroc",
+   "name": "Télé Maroc",
+   "url": "http://api.new.livestream.com/accounts/27130247/events/8196478/live.m3u8",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://i.imgur.com/7sibv0t.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.0,
+   "reason": "réseau sortant de l'environnement de test restreint (DNS/port non autorisé) – non testable ici",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Autre : Télé Maroc",
+   "name": "Télé Maroc (1080p)",
+   "url": "https://api.new.livestream.com/accounts/27130247/events/9197096/live.m3u8",
+   "sources": [
+    "ahmadmk2023/free-channel:ma.m3u",
+    "soso366/maroc-:maroc_simple.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "TeleMaroc.ma",
+   "logo": "",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.12,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Autre : Télé Maroc+",
+   "name": "Télé Maroc+",
+   "url": "https://playback.akamaized.net/streams/27130247_8196478_lsif5pek6kmo62yxmyp_1/media/27130247_8196478_lsif5pek6kmo62yxmyp_1@2756000p.m3u8?dw=14400&ts=1580943600&hdnts=exp=1581119004~acl=/streams/27130247_8196478_lsif5pek6kmo62yxmyp_1/media*~hmac=5d59aba4890917574a1ee0fe86100efcaa3e02edaf0db543edd593be6bdb15c7",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://i.imgur.com/7sibv0t.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.23,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  },
+  {
+   "channel": "Autre : Télé Maroc++",
+   "name": "Télé Maroc++",
+   "url": "https://playback.akamaized.net/streams/27130247_8196478_lsif5pek6kmo62yxmyp_1/media/27130247_8196478_lsif5pek6kmo62yxmyp_1@5256000pb.m3u8?dw=14400&ts=1580943600&hdnts=exp=1581118342~acl=/streams/27130247_8196478_lsif5pek6kmo62yxmyp_1/media*~hmac=58070324c3c8bcedb8500f21344c3620709e6f6b4516f075e51dd671c2c692f3",
+   "sources": [
+    "shiheb/iptv-player:Arabe/Maroc.m3u"
+   ],
+   "referer": "",
+   "user_agent": "",
+   "tvg_id": "",
+   "logo": "https://i.imgur.com/7sibv0t.png",
+   "http_status": "",
+   "result": "NON TESTÉ",
+   "duration": 0.24,
+   "reason": "hôte refusé par la politique réseau de l'environnement de test (proxy)",
+   "details": "",
+   "attempts": 1,
+   "steps": [
+    "tentative 1"
+   ]
+  }
+ ]
+}
