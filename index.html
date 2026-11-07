@@ -1,220 +1,46 @@
 <!doctype html>
-<html lang="en" manifest="cache.manifest">
+<html class="landing" lang="en" manifest="cache.manifest"> >
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>PoyGaming Webkit JB 14.00</title>
-    <style>
-html,
-body {
-  margin: 0;
-  padding: 0;
-  min-height: 100%;
-  background: #05070a;
-  background-image:
-    radial-gradient(ellipse 60% 40% at 50% 0%, rgba(0, 255, 170, 0.08), transparent 70%),
-    radial-gradient(ellipse 50% 35% at 50% 100%, rgba(0, 170, 255, 0.06), transparent 70%);
-  color: #b8f5d8;
-  font:
-    15px/1.45 "Segoe UI",
-    system-ui,
-    sans-serif;
-}
-
-/* brand : barre néon avec liseret lumineux */
-#brand {
-  text-align: center;
-  padding: 10px;
-  background: linear-gradient(180deg, #0a1014 0%, #060a0d 100%);
-  border-bottom: 1px solid rgba(0, 255, 170, 0.3);
-  box-shadow: 0 2px 18px rgba(0, 255, 170, 0.15);
-}
-#logo {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 12px;
-  padding: 3px 12px;
-  border: 1px solid rgba(0, 255, 170, 0.5);
-  border-radius: 5px;
-  background: rgba(0, 255, 170, 0.06);
-  font-size: 15px;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  color: #00ffb0;
-  text-shadow:
-    0 0 8px rgba(0, 255, 170, 0.65),
-    0 0 22px rgba(0, 255, 170, 0.3);
-  box-shadow:
-    0 0 14px rgba(0, 255, 170, 0.2),
-    inset 0 0 10px rgba(0, 255, 170, 0.1);
-}
-#brand b {
-  font-size: 15px;
-  font-weight: 800;
-  letter-spacing: 0.22em;
-  color: #eafff4;
-  vertical-align: middle;
-  text-shadow:
-    0 0 8px rgba(0, 255, 170, 0.65),
-    0 0 24px rgba(0, 255, 170, 0.3);
-}
-
-/* running : spinner néon sous la marque */
-#spin {
-  position: fixed;
-  top: calc(50% + 20px);
-  left: 50%;
-  width: 46px;
-  height: 46px;
-  margin: -23px 0 0 -23px;
-  border: 4px solid rgba(0, 255, 170, 0.12);
-  border-top-color: #00ffb0;
-  border-radius: 50%;
-  box-shadow:
-    0 0 16px rgba(0, 255, 170, 0.35),
-    inset 0 0 10px rgba(0, 255, 170, 0.15);
-  animation: spin 0.9s linear infinite;
-}
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-#msg {
-  position: fixed;
-  top: 50%;
-  left: 0;
-  right: 0;
-  transform: translateY(-50%);
-  text-align: center;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  display: none;
-}
-#wrap {
-  padding: 0;
-}
-#state,
-#out {
-  display: none;
-}
-
-body.done #spin {
-  display: none;
-}
-body.fail #spin {
-  display: none;
-}
-body.fail #msg {
-  display: block;
-  color: #ffd166;
-  text-shadow: 0 0 12px rgba(255, 209, 102, 0.55);
-}
-body.done #msg {
-  display: block;
-  color: #00ffb0;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-shadow:
-    0 0 10px rgba(0, 255, 176, 0.7),
-    0 0 30px rgba(0, 255, 176, 0.35);
-}
-
-/* ?log=1 -- le log complet, style console néon */
-body.log #spin,
-body.log #msg {
-  display: none;
-}
-body.log #wrap {
-  padding: 14px 18px;
-}
-body.log #state {
-  display: block;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 0 0 8px;
-  color: #eafff4;
-  text-shadow: 0 0 12px rgba(0, 255, 170, 0.5);
-}
-body.log #out {
-  display: block;
-  white-space: pre-wrap;
-  font:
-    12px/1.45 Consolas,
-    monospace;
-  background: #06090c;
-  border: 1px solid rgba(0, 255, 170, 0.28);
-  border-radius: 6px;
-  box-shadow: inset 0 0 20px rgba(0, 255, 170, 0.06);
-  padding: 10px 12px;
-  height: calc(100vh - 141px);
-  overflow-y: auto;
-}
-.ok {
-  color: #00ffb0;
-  text-shadow: 0 0 6px rgba(0, 255, 176, 0.45);
-}
-.bad {
-  color: #ff5f7a;
-  text-shadow: 0 0 6px rgba(255, 95, 122, 0.45);
-}
-.warn {
-  color: #ffd166;
-  text-shadow: 0 0 6px rgba(255, 209, 102, 0.4);
-}
-.safe {
-  color: #00ffb0;
-  text-shadow: 0 0 6px rgba(0, 255, 176, 0.45);
-}
-.danger {
-  color: #ff5f7a;
-  text-shadow: 0 0 6px rgba(255, 95, 122, 0.45);
-}
-code {
-  color: #6ee7ff;
-  text-shadow: 0 0 6px rgba(110, 231, 255, 0.4);
-}
-
-/* compteur RAM : badge néon en haut à gauche */
-#ramBox {
-  position: fixed;
-  top: 8px;
-  left: 8px;
-  z-index: 9999;
-  padding: 6px 9px;
-  color: #00ffb0;
-  background: rgba(0, 10, 6, 0.82);
-  border: 1px solid rgba(0, 255, 170, 0.35);
-  border-radius: 4px;
-  box-shadow: 0 0 12px rgba(0, 255, 170, 0.2);
-  font-family:
-    Consolas,
-    monospace;
-  font-size: 11px;
-  max-width: 92vw;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  text-shadow: 0 0 6px rgba(0, 255, 170, 0.5);
-}
-    </style>
- <script src="https://well0nez.github.io/afterglow-web/"></script> 
- <script src="https://well0nez.github.io/afterglow-web/"></script>
+    <title>afterglow</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="ramBox">RAM: checking...</div>
-    <div id="brand">
-      <span id="logo">PoyGamingWebkit</span><b>POY JB 14.00</b>
+    <!-- Every run starts from here. The referrer guard in jb.js arms the chain
+         only when it was reached from this page, so that a browser restoring
+         its last session cannot re-run it unattended. -->
+    <div id="brand"><b>afterglow</b></div>
+
+    <div class="shell">
+      <img class="meme" src="meme.png" alt="" />
+
+      <main class="panel">
+        <p class="lede">PS4 firmware 12.00 &ndash; 14.00 <span class="soon">&middot; 14.02 soon</span></p>
+
+        <form class="pick" id="pick">
+          <label class="opt">
+            <input type="radio" name="payload" value="hen" />
+            <span>ps4-hen</span>
+          </label>
+          <label class="opt">
+            <input type="radio" name="payload" value="goldhen" checked />
+            <span>GoldHEN</span>
+          </label>
+
+          <label class="opt opt-auto">
+            <input type="checkbox" id="auto" checked />
+            <span>autostart</span>
+          </label>
+
+          <button class="btn" type="submit">start</button>
+          <p class="count" id="count"></p>
+          <p class="count" id="cache" aria-live="polite"></p>
+        </form>
+      </main>
     </div>
-    <div id="spin"></div>
-    <div id="msg">Restart your console</div>
-    <div id="wrap">
-      <div id="state"></div>
-      <div id="out"></div>
-    </div>
-    <script type="module">
-      import "./jb.js?v=stage10s-1";
-    </script>
-  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" nonce="QK7559vGwg0FOp+/807ifA==" data-cf-beacon='{"version":"2024.11.0","token":"36b4216ae2dc4d5488c249161e71fe1e","spa":2}' crossorigin="anonymous"></script>
-</body>
+
+    <p class="byline">by well0nez/m0zz</p>
+    <script src="launch.js"></script>
+  </body>
 </html>
