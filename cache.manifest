@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# Version 1 - modifiez ce commentaire (ex. v2) à chaque mise à jour des fichiers
+# pour forcer le navigateur à retélécharger le cache.
+# Pour ajouter un fichier, listez-le ci-dessous et changez la version.
+
+CACHE:
+index.html
+assets/style.css
+assets/app.js
+
+NETWORK:
+*

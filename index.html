@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr" manifest="cache.manifest">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maroc - Hors ligne</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main class="wrap">
+    <h1>Maroc - Page hors ligne</h1>
+    <p id="status" class="status">Chargement...</p>
+
+    <section class="card">
+      <h2>Cette page</h2>
+      <p>
+        Cette page et ses fichiers sont mis en cache par le navigateur
+        grâce au fichier <code>cache.manifest</code>. Une fois chargée une
+        première fois avec une connexion, elle reste disponible sans Internet.
+      </p>
+      <button id="reload" type="button">Recharger la page</button>
+    </section>
+
+    <section class="card">
+      <h2>Liste de lecture</h2>
+      <p>Le fichier <code>maroc_simple.m3u</code> est disponible dans le dépôt.</p>
+    </section>
+  </main>
+  <script src="assets/app.js"></script>
+</body>
+</html>
