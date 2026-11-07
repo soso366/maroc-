@@ -1,0 +1,149 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://feedchats.fr/web14/jb.html?log=1&mem=1&slots=9100000&drain=12&hx1400=1&kv=1&fam=0&telemetry=0&stage3=1&stage4=1&stage5=1&stage6=1&stage7=1&stage8=1&stage9=1&stage10=1&goldhen=1&v=1794065160152
+Subject: PoyGaming Webkit JB 14.00
+Date: Sat, 07 Nov 2026 15:26:31 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--ercis5eDuI0OhHdRWxO1XNnbH1dsvdIPovDSOojuPA----"
+
+
+------MultipartBoundary--ercis5eDuI0OhHdRWxO1XNnbH1dsvdIPovDSOojuPA----
+Content-Type: text/html
+Content-ID: <frame-76DA392DE33459C49AC217E794752870@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://feedchats.fr/web14/jb.html?log=1&mem=1&slots=9100000&drain=12&hx1400=1&kv=1&fam=0&telemetry=0&stage3=1&stage4=1&stage5=1&stage6=1&stage7=1&stage8=1&stage9=1&stage10=1&goldhen=1&v=1794065160152
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-601f9c6d-3b87-4163-aa20-0b7eb0b6bf9f@mhtml.blink" />
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=
+=3D1">
+    <title>PoyGaming Webkit JB 14.00</title>
+   =20
+  </head>
+  <body class=3D"log">
+    <div id=3D"ramBox">JS heap: 0.0% (1.52MB/4192.00MB) | core: slots=3D910=
+0000 drain=3D48x0.03MB est=3D76.27MB mem=3D1</div>
+    <div id=3D"brand">
+      <span id=3D"logo">PoyGamingWebkit</span><b>POY JB 14.00</b>
+    </div>
+    <div id=3D"spin"></div>
+    <div id=3D"msg">Restart your console</div>
+    <div id=3D"wrap">
+      <div id=3D"state" class=3D"warn">not a PS4 browser - debug mode</div>
+      <div id=3D"out">BUILD  jb=3Dskipjb2 base=3Def1670a
+FW  (not a PS4 UA)
+NONPS4-DEBUG  ua=3DMozilla/5.0 (Windows NT 10.0
+NONPS4-OFFSETS  supported=3D11.00,11.50,12.00,13.00,12.50,13.50,13.52,13.02=
+,13.04,12.02,12.52,14.00
+NONPS4-14  present webkit=3D39348352 poprdi=3D0x5c480 poprsi=3D0x6e45e popr=
+dx=3D0x12c5ba
+NONPS4-CORE  hx1400=3Dtrue memLevel=3D1 slots=3D9100000 drain=3D48 est=3D79=
+976192
+PROOF-SUMMARY-FINAL  pass=3D0 fail=3D0</div>
+    </div>
+   =20
+ =20
+
+
+</body></html>
+------MultipartBoundary--ercis5eDuI0OhHdRWxO1XNnbH1dsvdIPovDSOojuPA----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-601f9c6d-3b87-4163-aa20-0b7eb0b6bf9f@mhtml.blink
+
+@charset "utf-8";
+
+html, body { margin: 0px; padding: 0px; min-height: 100%; background: radia=
+l-gradient(60% 40% at 50% 0%, rgba(0, 255, 170, 0.08), transparent 70%), ra=
+dial-gradient(50% 35% at 50% 100%, rgba(0, 170, 255, 0.06), transparent 70%=
+) rgb(5, 7, 10); color: rgb(184, 245, 216); font: 15px / 1.45 "Segoe UI", s=
+ystem-ui, sans-serif; }
+
+#brand { text-align: center; padding: 10px; background: linear-gradient(rgb=
+(10, 16, 20) 0%, rgb(6, 10, 13) 100%); border-bottom: 1px solid rgba(0, 255=
+, 170, 0.3); box-shadow: rgba(0, 255, 170, 0.15) 0px 2px 18px; }
+
+#logo { display: inline-block; vertical-align: middle; margin-right: 12px; =
+padding: 3px 12px; border: 1px solid rgba(0, 255, 170, 0.5); border-radius:=
+ 5px; background: rgba(0, 255, 170, 0.06); font-size: 15px; font-weight: 80=
+0; letter-spacing: 0.12em; color: rgb(0, 255, 176); text-shadow: rgba(0, 25=
+5, 170, 0.65) 0px 0px 8px, rgba(0, 255, 170, 0.3) 0px 0px 22px; box-shadow:=
+ rgba(0, 255, 170, 0.2) 0px 0px 14px, rgba(0, 255, 170, 0.1) 0px 0px 10px i=
+nset; }
+
+#brand b { font-size: 15px; font-weight: 800; letter-spacing: 0.22em; color=
+: rgb(234, 255, 244); vertical-align: middle; text-shadow: rgba(0, 255, 170=
+, 0.65) 0px 0px 8px, rgba(0, 255, 170, 0.3) 0px 0px 24px; }
+
+#spin { position: fixed; top: calc(50% + 20px); left: 50%; width: 46px; hei=
+ght: 46px; margin: -23px 0px 0px -23px; border-width: 4px; border-style: so=
+lid; border-color: rgb(0, 255, 176) rgba(0, 255, 170, 0.12) rgba(0, 255, 17=
+0, 0.12); border-image: none; border-radius: 50%; box-shadow: rgba(0, 255, =
+170, 0.35) 0px 0px 16px, rgba(0, 255, 170, 0.15) 0px 0px 10px inset; animat=
+ion: 0.9s linear 0s infinite normal none running spin; }
+
+@keyframes spin {=20
+  100% { transform: rotate(360deg); }
+}
+
+#msg { position: fixed; top: 50%; left: 0px; right: 0px; transform: transla=
+teY(-50%); text-align: center; font-size: 16px; letter-spacing: 0.5px; disp=
+lay: none; }
+
+#wrap { padding: 0px; }
+
+#state, #out { display: none; }
+
+body.done #spin { display: none; }
+
+body.fail #spin { display: none; }
+
+body.fail #msg { display: block; color: rgb(255, 209, 102); text-shadow: rg=
+ba(255, 209, 102, 0.55) 0px 0px 12px; }
+
+body.done #msg { display: block; color: rgb(0, 255, 176); font-weight: 700;=
+ letter-spacing: 2px; text-shadow: rgba(0, 255, 176, 0.7) 0px 0px 10px, rgb=
+a(0, 255, 176, 0.35) 0px 0px 30px; }
+
+body.log #spin, body.log #msg { display: none; }
+
+body.log #wrap { padding: 14px 18px; }
+
+body.log #state { display: block; font-size: 22px; font-weight: 700; margin=
+: 0px 0px 8px; color: rgb(234, 255, 244); text-shadow: rgba(0, 255, 170, 0.=
+5) 0px 0px 12px; }
+
+body.log #out { display: block; white-space: pre-wrap; font: 12px / 1.45 Co=
+nsolas, monospace; background: rgb(6, 9, 12); border: 1px solid rgba(0, 255=
+, 170, 0.28); border-radius: 6px; box-shadow: rgba(0, 255, 170, 0.06) 0px 0=
+px 20px inset; padding: 10px 12px; height: calc(-141px + 100vh); overflow-y=
+: auto; }
+
+.ok { color: rgb(0, 255, 176); text-shadow: rgba(0, 255, 176, 0.45) 0px 0px=
+ 6px; }
+
+.bad { color: rgb(255, 95, 122); text-shadow: rgba(255, 95, 122, 0.45) 0px =
+0px 6px; }
+
+.warn { color: rgb(255, 209, 102); text-shadow: rgba(255, 209, 102, 0.4) 0p=
+x 0px 6px; }
+
+.safe { color: rgb(0, 255, 176); text-shadow: rgba(0, 255, 176, 0.45) 0px 0=
+px 6px; }
+
+.danger { color: rgb(255, 95, 122); text-shadow: rgba(255, 95, 122, 0.45) 0=
+px 0px 6px; }
+
+code { color: rgb(110, 231, 255); text-shadow: rgba(110, 231, 255, 0.4) 0px=
+ 0px 6px; }
+
+#ramBox { position: fixed; top: 8px; left: 8px; z-index: 9999; padding: 6px=
+ 9px; color: rgb(0, 255, 176); background: rgba(0, 10, 6, 0.82); border: 1p=
+x solid rgba(0, 255, 170, 0.35); border-radius: 4px; box-shadow: rgba(0, 25=
+5, 170, 0.2) 0px 0px 12px; font-family: Consolas, monospace; font-size: 11p=
+x; max-width: 92vw; overflow: hidden; text-overflow: ellipsis; white-space:=
+ nowrap; text-shadow: rgba(0, 255, 170, 0.5) 0px 0px 6px; }
+------MultipartBoundary--ercis5eDuI0OhHdRWxO1XNnbH1dsvdIPovDSOojuPA------
